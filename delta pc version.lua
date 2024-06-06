@@ -1085,7 +1085,8 @@ end
 
 
 
-
--- while wait(0.2) do
---     scrollingframe.CanvasSize = UDim2.new(0, 500, 0, 1500)
--- end
+--[[
+while wait(0.2) do
+    scrollingframe.CanvasSize = UDim2.new(0, 500, 0, 1500)
+end
+]]
