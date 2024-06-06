@@ -927,11 +927,11 @@ button.MouseButton1Click:Connect(function()
 
 	button.MouseButton1Click:Connect(function()
 	    injected:Destroy()
-	end
+	end)
 
 	closeInj.MouseButton1Click:Connect(function()
         injected:Destroy()
-    end
+    end)
     else
     	local injection = Instance.new("Frame")
 	injection.Size = UDim2.new(0, 264, 0, 100)
@@ -1073,19 +1073,19 @@ button.MouseButton1Click:Connect(function()
 
 	button.MouseButton1Click:Connect(function()
 	    injected:Destroy()
-	end
+	end)
 
 	closeInj.MouseButton1Click:Connect(function()
         injected:Destroy()
-    end
-end)
-
-
-
-
-
-
-
-while wait(0.2) do
-    scrollingframe.CanvasSize = UDim2.new(0, 500, 0, 1500)
+    end)
 end
+
+
+
+
+
+
+
+-- while wait(0.2) do
+--     scrollingframe.CanvasSize = UDim2.new(0, 500, 0, 1500)
+-- end
